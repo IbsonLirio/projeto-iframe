@@ -42,6 +42,7 @@ a > img:hover {
     width: 80px;
     transition: 0.5s;
     border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transform: translate(-10px, -10px);
 }
 
