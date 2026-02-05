@@ -34,12 +34,15 @@ a > img {
     margin: 10px;
     border-radius: 50px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
 }
 
 a > img:hover {
     height: 80px;
     width: 80px;
     transition: 0.5s;
+    border: 2px solid white;
+    transform: translate(-10px, -10px);
 }
 
 iframe#tela {
