@@ -1,65 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pr-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Iframe</title>
-    <style>
-        body {
-            padding: 0%;
-            padding-top: 50px;
-            margin: 0px;
-            background-image: url(imagens/fundos/fundo-madeira.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        div#celular {
-            background-image: url(imagens/fundos/frame-iphone.png);
-            background-repeat: no-repeat;
-            height: 650px;
-            width: 320px;
-            margin: auto;
-        }
-
-        div#nav {
-            width: 60px;
-            margin-left: 92vw;
-        }
-
-        ul {
-            list-style: none;
-        }
-
-        ul > li > a > img {
-            height: 50px;
-            width: 50px;
-            border-radius: 50px;
-        }
-
-        iframe {
-            height: 500px;
-            width: 300px;
-        }
-    </style>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <div id="nav">
-        <ul>
-            <li><a href="imagens/telas/tela-home.jpg" target="tela"><img src="imagens/logos/logo-home.jpg" alt="Home"></a></li>
-            <li><a href="imagens/telas/tela-youtube.png" target="tela"><img src="imagens/logos/logo-youtube.jpg" alt="Youtube"></a></li>
-            <li><a href="imagens/telas/tela-github.jpg" target="tela"><img src="imagens/logos/logo-github.jpg" alt="Github"></a></li>
-            <li><a href="imagens/telas/tela-instagram.jpg" target="tela"><img src="imagens/logos/logo-instagram.jpg" alt="Instagram"></a></li>
-            <li><a href="imagens/telas/tela-twitter.jpg" target="tela"><img src="imagens/logos/logo-twitter.jpg" alt="Twitter"></a></li>
-            <li><a href="imagens/telas/tela-facebook.jpg" target="tela"><img src="imagens/logos/logo-facebook.jpg" alt="Facebook"></a></li>
-        </ul>
-    </div>
 
-    <div id="celular">
-        <div id="iframe">
-            <iframe name="tela" src="imagens/telas/tela-home.jpg"></iframe>
-        </div>
-    </div>
+    <main>
+        <section id="celular">
+            <div id="iframe">
+                <iframe name="tela" src="imagens/telas/tela-home.jpg"></iframe>
+            </div>
+        </section>
+        <section id="nav">
+            <ul>
+                <li><a href="imagens/telas/tela-home.jpg" target="tela"><img src="imagens/logos/logo-home.jpg" alt="Home"></a></li>
+                <li><a href="imagens/telas/tela-youtube.png" target="tela"><img src="imagens/logos/logo-youtube.jpg" alt="Youtube"></a></li>
+                <li><a href="imagens/telas/tela-github.jpg" target="tela"><img src="imagens/logos/logo-github.jpg" alt="Github"></a></li>
+                <li><a href="imagens/telas/tela-instagram.jpg" target="tela"><img src="imagens/logos/logo-instagram.jpg" alt="Instagram"></a></li>
+                <li><a href="imagens/telas/tela-twitter.jpg" target="tela"><img src="imagens/logos/logo-twitter.jpg" alt="Twitter"></a></li>
+                <li><a href="imagens/telas/tela-facebook.jpg" target="tela"><img src="imagens/logos/logo-facebook.jpg" alt="Facebook"></a></li>
+            </ul>
+        </section>
+    </main>
 
 </body>
 </html>
